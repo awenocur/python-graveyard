@@ -20,7 +20,7 @@ IUSE=""
 
 DEPEND="
 	>=media-gfx/argyllcms-1.1.0
-	dev-python/wxpython:3.0[${PYTHON_USEDEP}]
+	dev-python/wxpython:27[${PYTHON_USEDEP}]
 	>=x11-libs/libX11-1.3.3
 	>=x11-apps/xrandr-1.3.2
 	>=x11-libs/libXxf86vm-1.1.0

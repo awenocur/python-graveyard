@@ -3,7 +3,7 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python2_7 python3_{6..9} )
+PYTHON_COMPAT=( python2_7 )
 PYTHON_REQ_USE="threads(+)"
 
 inherit distutils-r1
@@ -13,7 +13,7 @@ HOMEPAGE="https://www.cairographics.org/pycairo/ https://github.com/pygobject/py
 SRC_URI="https://github.com/pygobject/${PN}/releases/download/v${PV}/${P}.tar.gz"
 
 LICENSE="|| ( LGPL-2.1 MPL-1.1 )"
-SLOT="0"
+SLOT="27"
 KEYWORDS="~alpha amd64 arm arm64 hppa ~ia64 ~mips ppc ppc64 s390 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos"
 IUSE="examples"
 

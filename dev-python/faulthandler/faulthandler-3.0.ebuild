@@ -12,7 +12,7 @@ HOMEPAGE="https://github.com/haypo/faulthandler https://pypi.org/project/faultha
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="BSD-2"
-SLOT="0"
+SLOT="27"
 KEYWORDS="amd64 ppc ppc64 x86"
 IUSE=""
 

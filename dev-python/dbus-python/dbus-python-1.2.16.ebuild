@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2_7 python3_{6,7,8,9} )
+PYTHON_COMPAT=( python2_7 )
 PYTHON_REQ_USE="threads(+)"
 
 inherit autotools python-r1
@@ -13,7 +13,7 @@ HOMEPAGE="https://www.freedesktop.org/wiki/Software/DBusBindings https://dbus.fr
 SRC_URI="https://dbus.freedesktop.org/releases/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
-SLOT="0"
+SLOT="2/7"
 KEYWORDS="~alpha amd64 arm arm64 hppa ~ia64 ~mips ppc ppc64 ~s390 sparc x86"
 
 IUSE="doc examples test"
@@ -74,6 +74,8 @@ src_test() {
 src_install() {
 	python_foreach_impl run_in_build_dir default
 	find "${D}" -name '*.la' -type f -delete || die
+	rm "${ED}/usr/include/dbus-1.0/dbus/dbus-python.h"
+	rm "${ED}/usr/$(get_libdir)/pkgconfig/dbus-python.pc"
 
 	use examples && dodoc -r examples
 }

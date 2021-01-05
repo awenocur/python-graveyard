@@ -17,7 +17,7 @@ SRC_URI="
 	examples? ( mirror://sourceforge/wxpython/wxPython-demo-${PV}.tar.bz2 )"
 
 LICENSE="wxWinLL-3"
-SLOT="3.0"
+SLOT="27"
 KEYWORDS="~alpha amd64 arm arm64 ppc ppc64 ~sparc x86"
 IUSE="cairo examples libnotify opengl"
 
