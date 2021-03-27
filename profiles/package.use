@@ -1,0 +1,9 @@
+media-gfx/displaycal python_targets_python2_7
+dev-python/pygobject python_targets_python2_7
+dev-python/dbus-python python_targets_python2_7
+dev-python/faulthandler python_targets_python2_7
+dev-python/numpy-python2 python_targets_python2_7
+dev-python/pycairo python_targets_python2_7
+dev-python/pyopengl python_targets_python2_7
+dev-python/setuptools python_targets_python2_7
+dev-python/wxpython python_targets_python2_7
