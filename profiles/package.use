@@ -10,3 +10,15 @@ dev-python/wxpython python_targets_python2_7
 dev-python/certifi python_targets_python2_7
 dev-lang/python-exec-conf python_targets_python2_7
 dev-lang/python-exec python_targets_python2_7
+dev-vcs/bzr python_targets_python2_7
+dev-python/paramiko python_targets_python2_7
+dev-python/bcrypt python_targets_python2_7
+dev-python/cryptography python_targets_python2_7
+dev-python/six python_targets_python2_7
+dev-python/enum34 python_targets_python2_7
+dev-python/ipaddress python_targets_python2_7
+dev-python/cffi python_targets_python2_7
+dev-python/pycparser python_targets_python2_7
+dev-python/ply python_targets_python2_7
+dev-python/pynacl python_targets_python2_7
+dev-python/pyasn1 python_targets_python2_7
