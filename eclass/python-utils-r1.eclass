@@ -41,7 +41,7 @@ inherit toolchain-funcs
 _PYTHON_ALL_IMPLS=(
 	pypy3
 	python2_7
-	python3_7 python3_8 python3_9
+	python3_8 python3_9 python3_10
 )
 readonly _PYTHON_ALL_IMPLS
 
@@ -53,7 +53,7 @@ _PYTHON_HISTORICAL_IMPLS=(
 	jython2_7
 	pypy pypy1_{8,9} pypy2_0
 	python2_{5,6}
-	python3_{1,2,3,4,5}
+	python3_{1,2,3,4,5,6,7}
 )
 readonly _PYTHON_HISTORICAL_IMPLS
 
@@ -89,7 +89,7 @@ _python_impl_supported() {
 	# keep in sync with _PYTHON_ALL_IMPLS!
 	# (not using that list because inline patterns shall be faster)
 	case "${impl}" in
-		python2_7|python3_[6789]|pypy3)
+		python2_7|python3_[89]|pypy3|python3_10)
 			return 0
 			;;
 		jython2_7|pypy|pypy1_[89]|pypy2_0|python2_[56]|python3_[12345])
