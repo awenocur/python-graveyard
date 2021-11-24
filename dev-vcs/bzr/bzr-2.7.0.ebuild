@@ -3,7 +3,7 @@
 
 EAPI=6
 PYTHON_COMPAT=( python2_7 )
-PYTHON_REQ_USE="threads,ssl,xml"
+PYTHON_REQ_USE="ssl,xml"
 
 MY_P="${PN}-${PV}"
 
